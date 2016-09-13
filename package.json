@@ -1,0 +1,45 @@
+{
+  "name": "voracious_scroll",
+  "version": "1.0.0",
+  "description": "news app",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VoraciousScroll/VoraciousScroll"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoraciousScroll/VoraciousScroll/issues"
+  },
+  "homepage": "https://github.com/VoraciousScroll/VoraciousScroll#readme",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-hackreactor": "hackreactor-labs/eslint-config-hackreactor",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-eslint": "^19.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "aylien-news-api": "^1.1.0",
+    "body-parser": "^1.15.2",
+    "d3": "^4.2.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "google-trends-api": "^1.3.0",
+    "moment": "^2.14.1",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "request": "^2.74.0"
+  }
+}
